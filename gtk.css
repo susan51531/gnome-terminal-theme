@@ -1,0 +1,61 @@
+/*
+ * http://ubuntu.aspcode.net/view/635400140124705175343128/remove-ugly-fat-bazel-from-gnome-terminal-with-multiple-tabs
+ */
+@define-color bg-grey #3f3e3a; /* ubuntu title background color */
+@define-color active #002b36; /* solarized color scheme background color */
+
+TerminalWindow .notebook {
+  border: 0;
+  padding: 0;
+  color: #eee;
+  background-color: shade(@active-grey, 1);
+}
+
+TerminalWindow .notebook tab:active {
+  background-color: shade(@active, 1);
+}
+
+TerminalWindow .notebook tab:focus {
+  outline: 0 solid transparent; 
+}
+
+TerminalWindow .notebook tab {
+  border-radius: 0px;
+  background-color: shade(@bg-grey, 1);
+}
+
+TerminalWindow .notebook {
+  border: 0;
+  padding: 0;
+  color: #eee;
+  background-color: shade(@active-grey, 1);
+}
+
+TerminalWindow .notebook tab:active {
+  background-color: shade(@active, 1);
+}
+
+TerminalWindow .notebook tab {
+  border-radius: 0px;
+  background-color: shade(@bg-grey, 1);
+}
+TerminalWindow .notebook tab {
+  border-radius: 0px;
+  background-color: shade(@bg-grey, 1);
+}
+
+TerminalWindow .notebook {
+  border: 0;
+  padding: 0;
+  color: #eee;
+  background-color: shade(@active-grey, 1);
+}
+
+TerminalWindow .notebook tab:active {
+  background-color: shade(@active, 1);
+}
+
+TerminalWindow .notebook tab {
+  border-radius: 0px;
+  background-color: shade(@bg-grey, 1);
+}
